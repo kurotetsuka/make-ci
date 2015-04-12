@@ -1,10 +1,9 @@
-# make-ci
-Provides local continous integration with `make`.
+# make-ci :: Local CI with Make
 
-Use with `make-ci <target> <watch files>`, for by adding a corresponding `ci` definition to your makefile and running `make ci`. Every save (or other filesystem modification) of the watch files will trigger an execution of `make <target>`. To stop the process, just hit ctrl-c.
+Use with `make-ci <target> <watch files>`, or by adding a corresponding `ci` definition to your makefile and running `make ci`. Every save (or other filesystem modification) of the watch files will trigger an execution of `make <target>`. To stop the process, just hit ctrl-c.
 
 Author: [Kurotetsuka](https://github.com/kurotetsuka)  
-License: [MIT](license.md) ([details](legal/gnu-lgpl-v3.0.md))  
+License: [MIT](legal/mit.md)  
 
 ## Installation
 To install for all users, run `sudo ./install`. To install just for your user, run `sudo ./install-local`.
