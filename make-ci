@@ -6,6 +6,6 @@ shift
 watches="$@"
 
 # make continuously
-while inotifywait -e modify $watches; do
-	make $target;
+while inotifywait -e modify $watches &>> /dev/null; do
+	make $target
 done
