@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# extract make target and watches
 target="$1"
 shift
-echo "$@"
-while inotifywait -e modify $@; do
+watches="$@"
+
+# make continuously
+while inotifywait -e modify $watches; do
 	make $target;
 done
