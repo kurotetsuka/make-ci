@@ -1,4 +1,4 @@
-# make-ci :: Local CI with Make
+# make-ci :: Local CI for Make
 
 Use with `make-ci <target> <watch files>`, or by adding a corresponding `ci` definition to your makefile and running `make ci`. Every save (or other filesystem modification) of the watch files will trigger an execution of `make <target>`. To stop the process, just hit ctrl-c.
 
