@@ -5,6 +5,9 @@ Use with `make-ci <target> <watch files>`, or by adding a corresponding `ci` def
 Author: [Kurotetsuka](https://github.com/kurotetsuka)  
 License: [MIT](legal/mit.md)  
 
+## Dependencies
+ - `inotifywait` :: On Archlinux, just `sudo pacman -S inotify-tools`.
+
 ## Installation
 To install for all users, run `sudo ./install`. To install just for your user, run `sudo ./install-local`.
 
